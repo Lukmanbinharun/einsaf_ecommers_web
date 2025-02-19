@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="csrf-token" content="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH" />
+        <title>Einsaf - einsaf</title>
+        <!-- App favicon -->
+
+        <link rel="shortcut icon" href="https://einsaf.com/public/uploads/settings/1735766609-tofeeyor1mqojmz6dhv1rypre5h6rntzsclu5x5e.webp" alt="Super Ecommerce Favicon" />
+        <meta name="author" content="Super Ecommerce" />
+        <link rel="canonical" href="" />
+        <meta name="app-url" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<!-- Open Graph data -->
+<meta property="og:title" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="https://einsaf.com/public/uploads/settings/1735767576-beipw7wpogcoq31gyzgurjxysgtefobownzpgmtj.webp" />
+<meta property="og:description" content="" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/owl.theme.default.min.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/animate.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/all.min.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/mobile-menu.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/select2.min.css" />
+        <!-- toastr css -->
+        <link rel="stylesheet" href="https://einsaf.com/public/backEnd/assets/css/toastr.min.css" />
+
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/wsit-menu.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/style.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/responsive.css" />
+        <link rel="stylesheet" href="https://einsaf.com/public/frontEnd/css/main.css" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <style>
+            /* body {
+                background-color: #121212;
+                color: white;
+            } */
+             a{
+                text-decoration: none;
+             }
+             .follow_us {
+                padding: 40px 0;
+                border-color: #3d3d46 !important;
+                background-color: #212129 !important;
+            }
+            .follow_us-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+            }
+            .follow_us-left {
+                flex: 1;
+                text-align: left;
+            }
+            .follow_us-logo img {
+                width: 50px;
+            }
+            .follow_us-text {
+                font-size: 24px;
+                font-weight: bold;
+                color: #ffcc00;
+                margin-top: 10px;
+            }
+            .follow_us-text span {
+                color: #ff0000;
+            }
+            p {
+                font-size: 14px;
+                color: #cccccc;
+                margin-bottom: 20px;
+            }
+            .follow_us-right {
+                flex: 1;
+                text-align: right;
+            }
+            .follow_us-social-icons {
+                display: flex;
+                /* justify-content: flex-end; */
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            .follow_us-social-icons a {
+                color: #ffffff;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+            .follow_us-social-icons a:hover {
+                color: #ffcc00;
+            }
+            .follow_us-app-links {
+                display: flex;
+                /* justify-content: flex-end; */
+                gap: 15px;
+            }
+            .follow_us-app-links img {
+                width: 135px;
+            }
+
+            .dropdown-container {
+                background-color: #1a1a1a;
+                color: white;
+                padding: 10px;
+                width: 300px;
+                transition: 0.4s!important;
+            }
+            .menu-header {
+                cursor: pointer;
+                padding: 10px;
+                background-color: #17171f !important;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: 0.4s!important;
+                color: #919199 !important;
+            }
+            .menu-content {
+                display: none;
+                padding: 10px;
+                color: #dfdfe6 !important;
+                background-color: rgb(33, 33, 41) !important;
+                transition: 0.4s!important;
+            }
+            .menu-content a {
+                color: #dfdfe6 !important;
+                text-decoration: none;
+                display: block;
+                padding: 5px 0;
+                transition: 0.4s!important;
+            }
+            .footer {
+                background: #1c1b1f;
+                padding: 40px 0;
+                position: relative;
+                color: #b0b0b0;
+            }
+            .footer h5{
+                color: #919199!important;
+            }
+            .footer strong{
+                color: #919199!important;
+            }
+            .footer a {
+                color: #dfdfe6!important;
+                text-decoration: none!important;
+            }
+            .footer a:hover {
+                text-decoration: underline!important;
+                color: white;
+            }
+            .social-icons a {
+                font-size: 20px;
+                margin-right: 15px;
+                color: #b0b0b0;
+            }
+            .social-icons a:hover {
+                color: white;
+            }
+            .app-buttons img {
+                width: 150px;
+                margin-right: 10px;
+            }
+            .payment-icons img {
+                width: 80px;
+                margin: 5px;
+            }
+            .top-right {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            .dropdown-container{
+                display: none;
+            }
+            @media (max-width: 768px) {
+                .top-right {
+                    position: relative;
+                    text-align: center;
+                    top: 0;
+                    right: 0;
+                    margin-bottom: 20px;
+                    align-items: center;
+                }
+                .app-buttons img {
+                    width: 120px;
+                    margin: 5px;
+                }
+                .dropdown-container{
+                    display: block;
+                    width: 100%;
+                }
+                .footer{
+                    display: none;
+                }
+            }
+        </style>
+
+        <meta name="facebook-domain-verification" content="38f1w8335btoklo88dyfl63ba3st2e" />
+
+        
+                <!-- Google tag (gtag.js) -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-tag');</script>
+        <!-- End Google Tag Manager -->
+            </head>
+    <body class="gotop">
+                <div class="mobile-menu">
+                <div class="mobile-menu-logo">
+                    <div class="logo-image">
+                        <img src="https://einsaf.com/public/uploads/settings/1735767576-beipw7wpogcoq31gyzgurjxysgtefobownzpgmtj.webp" alt="" />
+                    </div>
+                    <div class="mobile-menu-close">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </div>
+                <ul class="first-nav">
+                                        <li class="parent-category">
+                        <a href="https://einsaf.com/category/grocery" class="menu-category-name">
+                            <img src="https://einsaf.com/public/uploads/category/1735931838-22.webp" alt="" class="side_cat_img" />
+                            Grocery
+                        </a>
+                                                <span class="menu-category-toggle">
+                            <i class="fa fa-chevron-down"></i>
+                        </span>
+                                                <ul class="second-nav" style="display: none;">
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/baking-&amp;-cooking" class="menu-subcategory-name">Baking &amp; Cooking</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/baking-chocolates-&amp;-cocoa" class="menu-childcategory-name">Baking Chocolates &amp; Cocoa</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/foil,-wrapping-&amp;-zip-bag" class="menu-childcategory-name">Foil, Wrapping &amp; Zip Bag</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sugar-&amp;-salt" class="menu-childcategory-name">Sugar &amp; Salt</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/mayonnaise" class="menu-childcategory-name">Mayonnaise</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/bbq-sauce" class="menu-childcategory-name">BBQ Sauce</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chilli-sauce" class="menu-childcategory-name">Chilli Sauce</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/fish-sauce" class="menu-childcategory-name">Fish Sauce</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/tomato-sauces" class="menu-childcategory-name">Tomato Sauces</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/ghee" class="menu-childcategory-name">Ghee</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/colors-&amp;-flavours" class="menu-childcategory-name">Colors &amp; Flavours</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/syrups" class="menu-childcategory-name">Syrups</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sauces-&amp;-pickles" class="menu-childcategory-name">Sauces &amp; Pickles</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/tomato-sauces" class="menu-childcategory-name">Tomato Sauces</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/table-sauces--cooking-sauces" class="menu-childcategory-name">Table Sauces / Cooking Sauces</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/baby-care" class="menu-subcategory-name">Baby Care</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/baby-&amp;-infant-milk" class="menu-childcategory-name">Baby &amp; Infant Milk</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/baby-cerelac-&amp;-lactogen" class="menu-childcategory-name">Baby Cerelac &amp; Lactogen</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/baby-diapers" class="menu-childcategory-name">Baby Diapers</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/baby-foods-&amp;-juices" class="menu-childcategory-name">Baby Foods &amp; Juices</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/breakfast" class="menu-subcategory-name">Breakfast</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/tea-&amp;-coffee" class="menu-childcategory-name">Tea &amp; Coffee</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/marmalade,-jam-&amp;-jelly" class="menu-childcategory-name">Marmalade, Jam &amp; Jelly</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/dips,-spreads-&amp;-syrups" class="menu-childcategory-name">Dips, Spreads &amp; Syrups</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/honey" class="menu-childcategory-name">Honey</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/cereals" class="menu-childcategory-name">Cereals</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/energy-boosters" class="menu-childcategory-name">Energy Boosters</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/dry-fruits-&amp;-nuts" class="menu-childcategory-name">Dry Fruits &amp; Nuts</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/instant-breakfast-drinks" class="menu-childcategory-name">Instant Breakfast Drinks</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/canned-food-&amp;-frozen-food" class="menu-subcategory-name">Canned Food &amp; frozen Food</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/mushrooms" class="menu-childcategory-name">Mushrooms</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/pickles" class="menu-childcategory-name">Pickles</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/canned-tuna" class="menu-childcategory-name">Canned Tuna</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sardine" class="menu-childcategory-name">Sardine</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/olive" class="menu-childcategory-name">Olive</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sweet-corn" class="menu-childcategory-name">Sweet Corn</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chick-peas" class="menu-childcategory-name">Chick Peas</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/dairy-products" class="menu-subcategory-name">Dairy Products</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/ghee" class="menu-childcategory-name">Ghee</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/butter" class="menu-childcategory-name">Butter</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/cheese" class="menu-childcategory-name">Cheese</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/condensed-milk-&amp;-cream" class="menu-childcategory-name">Condensed Milk &amp; Cream</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/liquid-&amp;-uht-milk" class="menu-childcategory-name">Liquid &amp; UHT Milk</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/powder-milk" class="menu-childcategory-name">Powder Milk</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/yogurt" class="menu-childcategory-name">Yogurt</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/laban" class="menu-childcategory-name">Laban</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/lacchi" class="menu-childcategory-name">Lacchi</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/butter-&amp;-sour-cream" class="menu-childcategory-name">Butter &amp; Sour Cream</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/coconut-milk" class="menu-childcategory-name">Coconut milk</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/diabetic-&amp;-sugar-free" class="menu-subcategory-name">Diabetic &amp; Sugar Free</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/diabetic-jam-&amp;-spread" class="menu-childcategory-name">Diabetic jam &amp; spread</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/diabetic-sugar" class="menu-childcategory-name">Diabetic sugar</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/drinks-&amp;-beverage" class="menu-subcategory-name">Drinks &amp; Beverage</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/water" class="menu-childcategory-name">Water</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/tea" class="menu-childcategory-name">Tea</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/coffee" class="menu-childcategory-name">Coffee</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/juice" class="menu-childcategory-name">Juice</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/soft-drinks" class="menu-childcategory-name">Soft Drinks</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/energy-&amp;-malted-drinks" class="menu-childcategory-name">Energy &amp; Malted Drinks</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/powder-drinks" class="menu-childcategory-name">Powder Drinks</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/home-cleaning" class="menu-subcategory-name">Home Cleaning</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/dish-cleaner" class="menu-childcategory-name">Dish Cleaner</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/washing-powder" class="menu-childcategory-name">Washing Powder</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/detergent-powder-&amp;-liquid" class="menu-childcategory-name">Detergent Powder &amp; Liquid</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/toilet-cleaners" class="menu-childcategory-name">Toilet Cleaners</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/liquid-bleach-&amp;-hand-wash" class="menu-childcategory-name">Liquid Bleach &amp; Hand Wash</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/floor-glass-&amp;-wood-cleaners" class="menu-childcategory-name">Floor Glass &amp; Wood Cleaners</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/metal-&amp;-furniture-polish" class="menu-childcategory-name">Metal &amp; Furniture Polish</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/pest-control" class="menu-childcategory-name">Pest Control</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/candy-&amp;-chocolate" class="menu-subcategory-name">Candy &amp; Chocolate</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chocolates" class="menu-childcategory-name">Chocolates</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chocolate-bars" class="menu-childcategory-name">Chocolate Bars</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/wafers" class="menu-childcategory-name">Wafers</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/candies" class="menu-childcategory-name">Candies</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/gums,-mints-&amp;-mouth-fresheners" class="menu-childcategory-name">Gums, Mints &amp; Mouth Fresheners</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/jellies-&amp;-marshmallows" class="menu-childcategory-name">Jellies &amp; Marshmallows</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/snacks" class="menu-subcategory-name">Snacks</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/noodles" class="menu-childcategory-name">Noodles</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/pasta" class="menu-childcategory-name">Pasta</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/macaroni" class="menu-childcategory-name">Macaroni</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/soup" class="menu-childcategory-name">Soup</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/biscuits" class="menu-childcategory-name">Biscuits</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/popcorn-&amp;-nuts" class="menu-childcategory-name">Popcorn &amp; Nuts</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chips-&amp;-pretzels" class="menu-childcategory-name">Chips &amp; Pretzels</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/dried-fruit" class="menu-childcategory-name">Dried Fruit</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/shemai" class="menu-childcategory-name">Shemai</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/wafers" class="menu-childcategory-name">Wafers</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/chips" class="menu-childcategory-name">Chips</a></li>
+                                                                    </ul>
+                            </li>
+                                                        <li class="parent-subcategory">
+                                <a href="https://einsaf.com/subcategory/oil-&amp;-vinegar" class="menu-subcategory-name">Oil &amp; Vinegar</a>
+                                                                <span class="menu-subcategory-toggle"><i class="fa fa-chevron-down"></i></span>
+                                                                <ul class="third-nav" style="display: none;">
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/organic-extra-virgin-coconut-oil" class="menu-childcategory-name">Organic Extra Virgin Coconut Oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/mustard-oil" class="menu-childcategory-name">Mustard Oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/cooking-wine" class="menu-childcategory-name">Cooking Wine</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/vinegar" class="menu-childcategory-name">Vinegar</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/organic-extra-virgin-olive-oil" class="menu-childcategory-name">Organic Extra Virgin Olive Oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sesame-oil" class="menu-childcategory-name">Sesame oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/sunflower-oil" class="menu-childcategory-name">Sunflower Oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/soyabean-oil" class="menu-childcategory-name">Soyabean Oil</a></li>
+                                                                        <li class="childcategory"><a href="https://einsaf.com/products/butter-oil" class="menu-childcategory-name">Butter Oil</a></li>
+                                                                    </ul>
+                            </li>
+                                                    </ul>
+                    </li>
+                                    </ul>
+            </div>
+        <header id="navbar_top">
+            <div class="mobile-header sticky">
+                <div class="mobile-logo">
+                    <div class="menu-bar">
+                        <a class="toggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="menu-logo">
+                        <a href="https://einsaf.com"><img src="https://einsaf.com/public/uploads/settings/1735767576-beipw7wpogcoq31gyzgurjxysgtefobownzpgmtj.webp" alt="" /></a>
+                    </div>
+
+                    <div class="menu-bag">
+                        <a href="https://einsaf.com/customer/checkout">
+                        <p  class="margin-shopping">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="mobilecart-qty">0</span>
+                        </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-search">
+                <form action="https://einsaf.com/search">
+                    <input type="text" placeholder="Search Product ... " value="" class="msearch_keyword msearch_click" name="keyword" />
+                    <button><i data-feather="search"></i></button>
+                </form>
+                <div class="search_result"></div>
+            </div>
+
+
+
+            <div class="main-header">
+                <!-- header to end -->
+                <div class="logo-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="logo-header">
+                                    <div class="main-logo">
+                                        <a href="https://einsaf.com"><img src="https://einsaf.com/public/uploads/settings/1735767576-beipw7wpogcoq31gyzgurjxysgtefobownzpgmtj.webp" alt="" /></a>
+                                    </div>
+                                    <div class="main-search">
+                                        <form action="https://einsaf.com/search">
+                                            <input type="text" placeholder="Search Product..." class="search_keyword search_click" name="keyword" />
+                                            <button>
+                                                <i data-feather="search"></i>
+                                            </button>
+                                        </form>
+                                        <div class="search_result"></div>
+                                    </div>
+                                    <div class="header-list-items">
+                                        <ul>
+                                            <li class="track_btn">
+                                                <a href="https://einsaf.com/customer/order-track"> <i class="fa fa-truck"></i>Track Order</a>
+                                            </li>
+                                                                                        <li class="for_order">
+                                                <p>
+                                                    <a href="https://einsaf.com/customer/login">
+                                                        <i class="fa-regular fa-user"></i>
+                                                        Login / Sign Up
+                                                    </a>
+                                                </p>
+                                            </li>
+                                            
+                                            <li class="cart-dialog" id="cart-qty">
+                                                <a href="https://einsaf.com/customer/checkout">
+                                                    <p class="margin-shopping">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                        <span id="cart_count">0</span>
+                                                    </p>
+                                                </a>
+                                                <div class="cshort-summary">
+                                                    <ul>
+                                                                                                            </ul>
+                                                    <p><strong>সর্বমোট : ৳0.00</strong></p>
+                                                    <a href="https://einsaf.com/customer/checkout" class="go_cart"> অর্ডার করুন </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="catagory_menu">
+                                    <ul>
+                                                                                <li class="cat_bar ">
+                                            <a href="https://einsaf.com/category/grocery">
+                                                <span class="cat_head">Grocery</span>
+                                                                                                <i class="fa-solid fa-angle-down cat_down"></i>
+                                                                                            </a>
+                                                                                        <ul class="Cat_menu">
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/baking-&amp;-cooking">
+                                                        <span>Baking &amp; Cooking</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/baking-chocolates-&amp;-cocoa">Baking Chocolates &amp; Cocoa</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/foil,-wrapping-&amp;-zip-bag">Foil, Wrapping &amp; Zip Bag</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sugar-&amp;-salt">Sugar &amp; Salt</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/mayonnaise">Mayonnaise</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/bbq-sauce">BBQ Sauce</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chilli-sauce">Chilli Sauce</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/fish-sauce">Fish Sauce</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/tomato-sauces">Tomato Sauces</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/ghee">Ghee</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/colors-&amp;-flavours">Colors &amp; Flavours</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/syrups">Syrups</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sauces-&amp;-pickles">Sauces &amp; Pickles</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/tomato-sauces">Tomato Sauces</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/table-sauces--cooking-sauces">Table Sauces / Cooking Sauces</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/baby-care">
+                                                        <span>Baby Care</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/baby-&amp;-infant-milk">Baby &amp; Infant Milk</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/baby-cerelac-&amp;-lactogen">Baby Cerelac &amp; Lactogen</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/baby-diapers">Baby Diapers</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/baby-foods-&amp;-juices">Baby Foods &amp; Juices</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/breakfast">
+                                                        <span>Breakfast</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/tea-&amp;-coffee">Tea &amp; Coffee</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/marmalade,-jam-&amp;-jelly">Marmalade, Jam &amp; Jelly</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/dips,-spreads-&amp;-syrups">Dips, Spreads &amp; Syrups</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/honey">Honey</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/cereals">Cereals</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/energy-boosters">Energy Boosters</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/dry-fruits-&amp;-nuts">Dry Fruits &amp; Nuts</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/instant-breakfast-drinks">Instant Breakfast Drinks</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/canned-food-&amp;-frozen-food">
+                                                        <span>Canned Food &amp; frozen Food</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/mushrooms">Mushrooms</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/pickles">Pickles</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/canned-tuna">Canned Tuna</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sardine">Sardine</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/olive">Olive</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sweet-corn">Sweet Corn</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chick-peas">Chick Peas</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/dairy-products">
+                                                        <span>Dairy Products</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/ghee">Ghee</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/butter">Butter</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/cheese">Cheese</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/condensed-milk-&amp;-cream">Condensed Milk &amp; Cream</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/liquid-&amp;-uht-milk">Liquid &amp; UHT Milk</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/powder-milk">Powder Milk</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/yogurt">Yogurt</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/laban">Laban</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/lacchi">Lacchi</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/butter-&amp;-sour-cream">Butter &amp; Sour Cream</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/coconut-milk">Coconut milk</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/diabetic-&amp;-sugar-free">
+                                                        <span>Diabetic &amp; Sugar Free</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/diabetic-jam-&amp;-spread">Diabetic jam &amp; spread</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/diabetic-sugar">Diabetic sugar</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/drinks-&amp;-beverage">
+                                                        <span>Drinks &amp; Beverage</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/water">Water</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/tea">Tea</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/coffee">Coffee</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/juice">Juice</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/soft-drinks">Soft Drinks</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/energy-&amp;-malted-drinks">Energy &amp; Malted Drinks</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/powder-drinks">Powder Drinks</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/home-cleaning">
+                                                        <span>Home Cleaning</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/dish-cleaner">Dish Cleaner</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/washing-powder">Washing Powder</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/detergent-powder-&amp;-liquid">Detergent Powder &amp; Liquid</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/toilet-cleaners">Toilet Cleaners</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/liquid-bleach-&amp;-hand-wash">Liquid Bleach &amp; Hand Wash</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/floor-glass-&amp;-wood-cleaners">Floor Glass &amp; Wood Cleaners</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/metal-&amp;-furniture-polish">Metal &amp; Furniture Polish</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/pest-control">Pest Control</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/candy-&amp;-chocolate">
+                                                        <span>Candy &amp; Chocolate</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chocolates">Chocolates</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chocolate-bars">Chocolate Bars</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/wafers">Wafers</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/candies">Candies</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/gums,-mints-&amp;-mouth-fresheners">Gums, Mints &amp; Mouth Fresheners</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/jellies-&amp;-marshmallows">Jellies &amp; Marshmallows</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/snacks">
+                                                        <span>Snacks</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/noodles">Noodles</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/pasta">Pasta</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/macaroni">Macaroni</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/soup">Soup</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/biscuits">Biscuits</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/popcorn-&amp;-nuts">Popcorn &amp; Nuts</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chips-&amp;-pretzels">Chips &amp; Pretzels</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/dried-fruit">Dried Fruit</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/shemai">Shemai</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/wafers">Wafers</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/chips">Chips</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                                <li class="Cat_list cat_list_hover">
+                                                    <a href="https://einsaf.com/subcategory/oil-&amp;-vinegar">
+                                                        <span>Oil &amp; Vinegar</span>
+                                                        <i class="fa-solid fa-chevron-right cat_down"></i>                                                    </a>
+                                                                                                        <ul class="child_menu">
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/organic-extra-virgin-coconut-oil">Organic Extra Virgin Coconut Oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/mustard-oil">Mustard Oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/cooking-wine">Cooking Wine</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/vinegar">Vinegar</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/organic-extra-virgin-olive-oil">Organic Extra Virgin Olive Oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sesame-oil">Sesame oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/sunflower-oil">Sunflower Oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/soyabean-oil">Soyabean Oil</a>
+
+                                                        </li>
+                                                                                                                <li class="child_main">
+                                                            <a href="https://einsaf.com/products/butter-oil">Butter Oil</a>
+
+                                                        </li>
+                                                                                                            </ul>
+                                                                                                    </li>
+                                                                                            </ul>
+                                                                                    </li>
+                                                                                <li>
+                                            <a href="https://einsaf.com/blogs" class="menu-category-name">
+                                                
+                                                Blogs
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main-header end -->
+        </header>
+        <div id="content">
+            <section class="slider-section">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-12">
+                <div class="home-slider-container">
+                    <div class="main_slider owl-carousel">
+                                                    <div class="slider-item">
+                                <img src="https://einsaf.com/public/uploads/banner/1736202062wmd6RMzlzjxU0R7u6nwxADpbeBDf1wKjQIY0hBG4.png" alt="" />
+                            </div>
+                            <!-- slider item -->
+                                                    <div class="slider-item">
+                                <img src="https://einsaf.com/public/uploads/banner/1736201895bdCozaJ5Hf5zd2U9nVSWbrhyjg8CDrP9A4yWaWPD.jpg" alt="" />
+                            </div>
+                            <!-- slider item -->
+                                                    <div class="slider-item">
+                                <img src="https://einsaf.com/public/uploads/banner/1736202322todays deal.jpg" alt="" />
+                            </div>
+                            <!-- slider item -->
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- slider end -->
+
+<section class="homeproduct">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sec_title">
+                    <h3 class="section-title-header">
+                        <div class="timer_inner">
+                            <div class="">
+                                <span class="section-title-name"> Top Categories </span>
+                            </div>
+                        </div>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="topcategory">
+                                            <div class="cat_item">
+                            <div class="cat_img">
+                                <a href="https://einsaf.com/category/grocery">
+                                    <img src="https://einsaf.com/public/uploads/category/1735931838-22.webp" alt="" />
+                                </a>
+                            </div>
+                            <div class="cat_name">
+                                <a href="https://einsaf.com/category/grocery">
+                                    Grocery
+                                </a>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="homeproduct">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sec_title-hot-del">
+                    <h3 class="section-title-header">
+                        <div class="timer_inner">
+                            <div class="">
+                                <span class="section-title-name"> Hot Deal </span>
+                            </div>
+                            
+                            <div class="">
+                                <div class="offer_timer" id="simple_timer"></div>
+                            </div>
+                        </div>
+                    </h3>
+                </div>
+                  
+            </div>
+            <div class="col-sm-12">
+                <div class="product_slider owl-carousel">
+                                            <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 29%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/nescafe-coffee-original-extra-forte-100g-2906">
+                                        <img src="https://einsaf.com/"
+                                            alt="Nescafe Coffee Original Extra Forte 100g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/nescafe-coffee-original-extra-forte-100g-2906">Nescafe Coffee Original Extra Forte 100g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 675</del>
+                                            
+                                            ৳ 480 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                        <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2906" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2906" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                    </div>
+            </div>
+          <!--<div class="col-sm-12">-->
+          <!--   <a href="https://einsaf.com/hot-deals" class="view_more_btn" style="float:left">View More</a> -->
+          <!-- </div>-->
+        </div>
+    </div>
+</section>
+
+    <section class="homeproduct">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sec_title">
+                        <h3 class="section-title-header">
+                            <span class="section-title-name">Grocery</span>
+                        </h3>
+                         <div class="">
+                        <a href="https://einsaf.com/category/grocery" class="view_more_btn">View More</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="product_sliders">
+                                                   <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 10%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/pacific-gold-tuna-chunk-in-sunflower-oil---165g-2965">
+                                        <img src="https://einsaf.com/"
+                                            alt="Pacific Gold Tuna Chunk In Sunflower Oil - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/pacific-gold-tuna-chunk-in-sunflower-oil---165g-2965">Pacific Gold Tuna Chunk In Sunflower Oil - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 205</del>
+                                            
+                                            ৳ 185 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2965" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2965" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 10%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-brine---165g-2964">
+                                        <img src="https://einsaf.com/"
+                                            alt="Pacific Gold Tuna Flakes In Brine - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-brine---165g-2964">Pacific Gold Tuna Flakes In Brine - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 205</del>
+                                            
+                                            ৳ 185 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2964" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2964" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 10%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-spring-water---165g-2963">
+                                        <img src="https://einsaf.com/"
+                                            alt="Pacific Gold Tuna Flakes In Spring Water - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-spring-water---165g-2963">Pacific Gold Tuna Flakes In Spring Water - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 205</del>
+                                            
+                                            ৳ 185 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2963" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2963" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 10%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-sunflower-oil---165g-2962">
+                                        <img src="https://einsaf.com/"
+                                            alt="Pacific Gold Tuna Flakes In Sunflower Oil - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/pacific-gold-tuna-flakes-in-sunflower-oil---165g-2962">Pacific Gold Tuna Flakes In Sunflower Oil - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 210</del>
+                                            
+                                            ৳ 190 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2962" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2962" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 13%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/nautilus-tuna-chunks-in-soybean-oil---165g-2961">
+                                        <img src="https://einsaf.com/"
+                                            alt="Nautilus Tuna Chunks in Soybean Oil - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/nautilus-tuna-chunks-in-soybean-oil---165g-2961">Nautilus Tuna Chunks in Soybean Oil - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 225</del>
+                                            
+                                            ৳ 195 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2961" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2961" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 13%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/nautilus-tuna-sandwich-in-soybean-oil---165g-2960">
+                                        <img src="https://einsaf.com/"
+                                            alt="Nautilus Tuna Sandwich in Soybean Oil - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/nautilus-tuna-sandwich-in-soybean-oil---165g-2960">Nautilus Tuna Sandwich in Soybean Oil - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 225</del>
+                                            
+                                            ৳ 195 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2960" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2960" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 16%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/nautilus-tuna-sandwich-in-spring-water---165g-2959">
+                                        <img src="https://einsaf.com/"
+                                            alt="Nautilus Tuna Sandwich in Spring Water - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/nautilus-tuna-sandwich-in-spring-water---165g-2959">Nautilus Tuna Sandwich in Spring Water - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 225</del>
+                                            
+                                            ৳ 190 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2959" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2959" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 13%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/ceylan-tuna-flakes-in-spring-water---165g-2958">
+                                        <img src="https://einsaf.com/"
+                                            alt="Ceylan Tuna Flakes In Spring Water - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/ceylan-tuna-flakes-in-spring-water---165g-2958">Ceylan Tuna Flakes In Spring Water - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 225</del>
+                                            
+                                            ৳ 195 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2958" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2958" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 25%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/ceylan-tuna-chunks-in-spring-water---165g-2957">
+                                        <img src="https://einsaf.com/"
+                                            alt="Ceylan Tuna Chunks In Spring Water - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/ceylan-tuna-chunks-in-spring-water---165g-2957">Ceylan Tuna Chunks In Spring Water - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 320</del>
+                                            
+                                            ৳ 240 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2957" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2957" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 0%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/nautilus-tuna-steak-in-spring-water---165g-2956">
+                                        <img src="https://einsaf.com/"
+                                            alt="Nautilus Tuna Steak in Spring Water - 165g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/nautilus-tuna-steak-in-spring-water---165g-2956">Nautilus Tuna Steak in Spring Water - 165g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 330</del>
+                                            
+                                            ৳ 330 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2956" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2956" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 25%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/figaro-pitted-black-olive---340g-2955">
+                                        <img src="https://einsaf.com/"
+                                            alt="Figaro Pitted Black Olive - 340g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/figaro-pitted-black-olive---340g-2955">Figaro Pitted Black Olive - 340g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 420</del>
+                                            
+                                            ৳ 315 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2955" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2955" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                               <div class="product_item wist_item">
+                            <div class="product_item_inner">
+                                                                <div class="sale-badge">
+                                    <div class="sale-badge-inner">
+                                        <div class="sale-badge-box">
+                                            <span class="sale-badge-text">
+                                                <p> 24%</p>
+                                                ছাড়
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="pro_img">
+                                    <a href="https://einsaf.com/product/figaro-green-olive---340g-2954">
+                                        <img src="https://einsaf.com/"
+                                            alt="Figaro Green Olive - 340g" />
+                                    </a>
+                                </div>
+                                <div class="pro_des">
+                                    <div class="pro_name">
+                                        <a
+                                            href="https://einsaf.com/product/figaro-green-olive---340g-2954">Figaro Green Olive - 340g</a>
+                                    </div>
+                                    <div class="pro_price">
+                                        <p>
+                                                                                         <del>৳ 415</del>
+                                            
+                                            ৳ 315 
+                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                         <div class='d-flex'>
+                                 <div class="pro_btn col-lg-6 col-md-6 col-sm-6  col-6" style='padding-right:0;'>
+                                    
+                                    <form action="https://einsaf.com/cart/store/buy" method="POST">
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2954" />
+                                        <input type="hidden" name="qty" value="1" />
+                                        <button type="submit">Buy Now</button>
+                                    </form>
+                                </div>
+                                  <div class="pro_btn col-lg-6 col-md-6 col-sm-6 col-6" style='padding-left:0;'>
+                                   <form action="https://einsaf.com/cart/store" method="POST" name="formName" class='add_cart_btn_home_main'>
+                                        <input type="hidden" name="_token" value="4QuusBxcGo5jtSSElMyf6nXjiEWJnnmRC86xIQCH">                                        <input type="hidden" name="id" value="2954" />
+                                        <input type="hidden" name="qty" value="1" />
+                                     <input type="submit" class="add_cart_btn_home" onclick="add_to_cart(this,event)" name="add_cart" value="Add To Cart" />
+                                    </form>
+
+                                </div>
+                            </div>
+                               
+                                                    </div>
+                                    </div>
+            </div>
+    </section>
+
+<!--brand section-->
+
+
+<div class="homeproduct" >
+    <div class="container mt-2">
+        <h3 class="section-title-header">
+                            <span class="section-title-name">Brand</span>
+         </h3>
+        <div class="row">
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724218152-images.jfif" class="card-img-top brand-image" alt="Nutmeg">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217923-download-(4).jfif" class="card-img-top brand-image" alt="George">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217771-images-(1).webp" class="card-img-top brand-image" alt="Primark">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217496-download-(2).jfif" class="card-img-top brand-image" alt="nb">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217257-download-(1).jfif" class="card-img-top brand-image" alt="BB">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217169-download-(2).webp" class="card-img-top brand-image" alt="DnG">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217093-download-(1).webp" class="card-img-top brand-image" alt="Carter">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724216962-download.jfif" class="card-img-top brand-image" alt="lupilo">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724216829-download.webp" class="card-img-top brand-image" alt="gap">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724217634-images.webp" class="card-img-top brand-image" alt="MotherCare">
+                </div>
+            </div>
+                    <div class="col-6 col-md-4 col-lg-2 mb-2">
+                <div class="card brand-card d-flex align-items-center justify-content-center">
+                    <img src="public/uploads/brand/1724214564-hnm.jfif" class="card-img-top brand-image" alt="H&amp;M">
+                </div>
+            </div>
+            </div>
+    </div>
+       
+</div>
+
+        </div>
+            <section class="follow_us" style="padding-bottom: 10px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-9 col-12 pt-4">
+                            <div class="follow_us-logo">
+                                
+                                <a href="https://einsaf.com">
+                                    <img style="width :300px;" src="https://einsaf.com/public/uploads/settings/1735767576-beipw7wpogcoq31gyzgurjxysgtefobownzpgmtj.webp" alt="Einsaf" />
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-12 pt-4">
+                            <strong style="font-size: 14px; color: #cccccc; margin-bottom: 20px;">FOLLOW US</strong>
+                            <div class="follow_us-social-icons">
+                                
+                                                                <a style="padding-right: 5px; padding-left: 5px;" href="https://www.facebook.com/einsaf.bd/"><i class="fab fa-facebook-f"></i></a>
+                                                                <a style="padding-right: 5px; padding-left: 5px;" href="Einsaf24@gmail.com"><i class="fab fa-google"></i></a>
+                                                            </div>
+                            <strong style="font-size: 14px; color: #cccccc; margin-bottom: 20px;">MOBILE APPS</strong>
+                            <div class="follow_us-app-links">
+                                <a href="https://adorazstyle.com/public/adorazstyle.apk"><img src="https://einsaf.com/public/frontEnd/images/app-download.png" alt="Google Play"></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- content end -->
+
+            <section class="dropdown-container col-12 col-md-12 col-xl-12 ">
+    <div class="menu-header" onclick="toggleMenu('quickLinks')">
+        QUICK LINKS <span>+</span>
+    </div>
+    <div id="quickLinks" class="menu-content">
+                    <a href="https://einsaf.com/page/order-procedure">Order procedure</a>
+                    <a href="https://einsaf.com/page/delivery-rules">Delivery Rules</a>
+                    <a href="https://einsaf.com/page/return-policy">Return Policy</a>
+                
+    </div>
+
+    <div class="menu-header" onclick="toggleMenu('contacts')">
+        CONTACTS <span>+</span>
+    </div>
+    <div id="contacts" class="menu-content">
+        <p style="color: #dfdfe6!important;"><strong>Address:</strong> gulshan-1, dhaka, bangladesh</p>
+        <p style="color: #dfdfe6!important;"><strong>Phone:</strong> <a href="tel:01756707370">01756707370</a></p>
+    </div>
+
+    <div class="menu-header" onclick="toggleMenu('myAccount')">
+        LINKS <span>+</span>
+    </div>
+    <div id="myAccount" class="menu-content">
+                    <a href="https://einsaf.com/page/terms-&amp;-conditions">Terms &amp; Conditions</a>
+                    <a href="https://einsaf.com/page/about-us">About US</a>
+                    <a href="https://einsaf.com/page/customer-service">Customer Service</a>
+            </div>
+
+    <div class="menu-header" onclick="toggleMenu('sellerZone')">
+        Seller Zone <span>+</span>
+    </div>
+    <div id="sellerZone" class="menu-content">
+        <a href="#">Become A Seller <span style="color:orange;">Apply Now</span></a>
+
+        <a href="#">Login to Seller Panel</a>
+        <a href="https://adorazstyle.com/public/adorazstyle.apk">Download App</a>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container position-relative">
+        <hr>
+        <div class="row mt-2">
+            <div class="col-md-3">
+                <h5 style="color: white;">QUICK LINKS</h5>
+                <ul class="list-unstyled">
+                    
+                                            <li><a href="https://einsaf.com/page/order-procedure">Order procedure</a></li><br>
+                                            <li><a href="https://einsaf.com/page/delivery-rules">Delivery Rules</a></li><br>
+                                            <li><a href="https://einsaf.com/page/return-policy">Return Policy</a></li><br>
+                                        
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 style="color: white;">CONTACTS</h5>
+
+                
+                
+                <p style="color: white;"><strong>Address:</strong> gulshan-1, dhaka, bangladesh</p>
+                <p style="color: white;"><strong>Phone:</strong> <a href="tel:01756707370">01756707370</a></p>
+                
+            </div>
+            <div class="col-md-3">
+                <h5 style="color: white;">LINKS</h5>
+
+                
+                <ul class="list-unstyled">
+                                            <li><a href="https://einsaf.com/page/terms-&amp;-conditions">Terms &amp; Conditions</a></li><br>
+                                            <li><a href="https://einsaf.com/page/about-us">About US</a></li><br>
+                                            <li><a href="https://einsaf.com/page/customer-service">Customer Service</a></li><br>
+                                        
+                </ul>
+            </div>
+            <div class="col-md-3">
+                
+                    
+
+                    
+                    
+                
+                <h5 style="color: white;">SELLER ZONE</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Become A Seller <span style="color:orange;">Apply Now</span></a></li>
+                    
+
+                    
+
+                    <li><a href="#">Login to Seller Panel</a></li>
+                    <li><a href="https://adorazstyle.com/public/adorazstyle.apk">Download App</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <p style="color: #b0b0b0;">Einsaf 2025, All rights reserved.</p>
+        </div>
+        <div class="copyright">
+            <p>Developed By <a class='text-white' href="https://developerszone.info/" target="_blank"> Developer Zone</a></p>
+        </div>
+    </div>
+</footer>
+
+        
+
+        
+
+
+        <!--Add TO cart-->
+         <!-- <div class='header-list-items'>-->
+
+
+            <!-- <ul>-->
+            <!--    <li class="cart-dialog" id="cart-qty">-->
+            <!--                                    <a href="https://einsaf.com/customer/checkout">-->
+            <!--                                        <p class="margin-shopping">-->
+            <!--                                            <i class="fa-solid fa-cart-shopping"></i>-->
+            <!--                                            <span>0</span>-->
+            <!--                                        </p>-->
+            <!--                                    </a>-->
+            <!--                                    <div class="cshort-summary">-->
+            <!--                                        <ul>-->
+            <!--                                            -->
+            <!--                                        </ul>-->
+            <!--                                        <p><strong>সর্বমোট : ৳0.00</strong></p>-->
+            <!--                                        <a href="https://einsaf.com/customer/checkout" class="go_cart"> অর্ডার করুন </a>-->
+            <!--                                    </div>-->
+            <!--                                </li>-->
+            <!--</ul>-->
+            <!-- </div>-->
+
+
+         <div class="addToCartModule d-none d-sm-none d-lg-block d-md-block" style="">
+             <a  href="https://einsaf.com/customer/checkout">
+                  <div class="cart-button-big-device">
+            <div class='cart-button-uper'>
+                <svg version="1.1" id="Calque_1" x="0px" y="0px" style="fill:#FDD670;stroke:#FDD670;" width="16px" height="24px" viewBox="0 0 100 160.13"
+                    data-reactid=".1wiukg4a76i.3.0.3.2.0.0"><g data-reactid=".1wiukg4a76i.3.0.3.2.0.0.0"><polygon points="11.052,154.666 21.987,143.115 35.409,154.666  "
+                    data-reactid=".1wiukg4a76i.3.0.3.2.0.0.0.0">
+                    </polygon><path d="M83.055,36.599c-0.323-7.997-1.229-15.362-2.72-19.555c-2.273-6.396-5.49-7.737-7.789-7.737
+                    c-6.796,0-13.674,11.599-16.489,25.689l-3.371-0.2l-0.19-0.012l-5.509,1.333c-0.058-9.911-1.01-17.577-2.849-22.747
+                    c-2.273-6.394-5.49-7.737-7.788-7.737c-8.618,0-17.367,18.625-17.788,37.361l-13.79,3.336l0.18,1.731h-0.18v106.605l17.466-17.762
+                    l18.592,17.762V48.06H9.886l42.845-10.764l2.862,0.171c-0.47,2.892-0.74,5.865-0.822,8.843l-8.954,1.75v106.605l48.777-10.655
+                    V38.532l0.073-1.244L83.055,36.599z M36.35,8.124c2.709,0,4.453,3.307,5.441,6.081c1.779,5.01,2.69,12.589,2.711,22.513
+                    l-23.429,5.667C21.663,23.304,30.499,8.124,36.35,8.124z M72.546,11.798c2.709,0,4.454,3.308,5.44,6.081
+                    c1.396,3.926,2.252,10.927,2.571,18.572l-22.035-1.308C61.289,21.508,67.87,11.798,72.546,11.798z M58.062,37.612l22.581,1.34
+                    c0.019,0.762,0.028,1.528,0.039,2.297l-23.404,4.571C57.375,42.986,57.637,40.234,58.062,37.612z M83.165,40.766
+                    c-0.007-0.557-0.01-1.112-0.021-1.665l6.549,0.39L83.165,40.766z" data-reactid=".1wiukg4a76i.3.0.3.2.0.0.0.1"></path></g>
+                </svg>
+                <p>0 ITEMS</p>
+            </div>
+            <div class='total-cart-tk'>
+                <p>  ৳ 0.00 </p>
+            </div>
+        </div>
+             </a>
+
+        </div>
+
+
+        <div class="scrolltop" style="">
+            <div class="scroll">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+
+        <!-- /. fixed sidebar -->
+
+        <div id="custom-modal"></div>
+        <div id="page-overlay"></div>
+        <div id="loading"><div class="custom-loader"></div></div>
+        <script>
+            function toggleMenu(id) {
+                let menu = document.getElementById(id);
+                let header = menu.previousElementSibling;
+                if (menu.style.display === "block") {
+                    menu.style.display = "none";
+                    header.querySelector("span").textContent = "+";
+                } else {
+                    menu.style.display = "block";
+                    header.querySelector("span").textContent = "–";
+                }
+            }
+        </script>
+        <script src="https://einsaf.com/public/frontEnd/js/jquery-3.6.3.min.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/bootstrap.min.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/owl.carousel.min.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/mobile-menu.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/wsit-menu.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/mobile-menu-init.js"></script>
+        <script src="https://einsaf.com/public/frontEnd/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+        <!-- feather icon -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+        <script>
+            feather.replace();
+        </script>
+        <script src="https://einsaf.com/public/backEnd/assets/js/toastr.min.js"></script>
+        <script type="text/javascript"></script> <script src="https://einsaf.com/public/frontEnd/js/owl.carousel.min.js"></script>
+<script src="https://einsaf.com/public/frontEnd/js/jquery.syotimer.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".main_slider").owlCarousel({
+            items: 1,
+            loop: true,
+            dots: false,
+            autoplay: true,
+            nav: true,
+            autoplayHoverPause: false,
+            margin: 0,
+            mouseDrag: true,
+            smartSpeed: 8000,
+            autoplayTimeout: 3000,
+            animateOut: "fadeOutDown",
+            animateIn: "slideInDown",
+
+            navText: ["<i class='fa-solid fa-angle-left'></i>",
+                "<i class='fa-solid fa-angle-right'></i>"
+            ],
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $(".hotdeals-slider").owlCarousel({
+            margin: 15,
+            loop: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 3,
+                    nav: true,
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                },
+                1000: {
+                    items: 6,
+                    nav: true,
+                    loop: false,
+                },
+            },
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $(".category-slider").owlCarousel({
+            margin: 15,
+            loop: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 5,
+                    nav: true,
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                },
+                1000: {
+                    items: 8,
+                    nav: true,
+                    loop: false,
+                },
+            },
+        });
+
+        $(".product_slider").owlCarousel({
+            margin: 15,
+            items: 6,
+            loop: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: false,
+                },
+                600: {
+                    items: 5,
+                    nav: false,
+                },
+                1000: {
+                    items: 6,
+                    nav: false,
+                },
+            },
+        });
+    });
+</script>
+
+<script>
+    $("#simple_timer").syotimer({
+        date: new Date(2015, 0, 1),
+        layout: "hms",
+        doubleNumbers: false,
+        effectType: "opacity",
+
+        periodUnit: "d",
+        periodic: true,
+        periodInterval: 1,
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#add_to_cart').click(function() {
+            gtag("event", "add_to_cart", {
+                currency: "BDT",
+                value: "1.5",
+                items: [
+                                    ]
+            });
+        });
+    });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#add_cart_btn_home').click(function() {
+        gtag("event", "add_to_cart", {
+            currency: "BDT",
+            value: "1.5",
+           tems: [
+                                    ]
+        });
+    });
+});
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#order_now').click(function() {
+            gtag("event", "add_to_cart", {
+                currency: "BDT",
+                value: "1.5",
+                items: [
+                                    ]
+            });
+        });
+    });
+</script>
+
+<script>
+    function sendSuccess() {
+        // size validation
+        size = document.forms["formName"]["product_size"].value;
+        if (size != "") {
+            // access
+        } else {
+            toastr.warning("Please select any size");
+            return false;
+        }
+        color = document.forms["formName"]["product_color"].value;
+        if (color != "") {
+            // access
+        } else {
+            toastr.error("Please select any color");
+            return false;
+        }
+    }
+    function add_to_cart(button,event) {
+        event.preventDefault(); 
+        var form = $(button).closest('form');
+        var url = form.attr('action'); 
+        var submit_button = $(button);
+
+        submit_button.val(`Please Wait...`);
+
+        submit_button.prop('disabled', true);
+        $.ajax({
+            url: url,
+            method: form.attr('method'),
+            data: form.serialize(), 
+            success: function(response) {
+               if (response.success == true) {
+                    toastr.success(response.message);
+                     var cart_count = response.cart_count;
+                    $('#cart_count').text(cart_count);
+               } 
+               if (response.success == false) {
+                    toastr.error(response.message);
+               }
+            },
+            error: function(response) {
+                toastr.error('Something went wrong!');
+            },
+            complete: function() {
+                submit_button.val(`Add To Cart`);
+                submit_button.prop('desabled', false);
+            }
+        });
+    }
+</script>
+
+        <script>
+            $(".quick_view").on("click", function () {
+                var id = $(this).data("id");
+                $("#loading").show();
+                if (id) {
+                    $.ajax({
+                        type: "GET",
+                        data: { id: id },
+                        url: "https://einsaf.com/quick-view",
+                        success: function (data) {
+                            if (data) {
+                                $("#custom-modal").html(data);
+                                $("#custom-modal").show();
+                                $("#loading").hide();
+                                $("#page-overlay").show();
+                            }
+                        },
+                    });
+                }
+            });
+        </script>
+        <!-- quick view end -->
+        <!-- cart js start -->
+        <script>
+            $(".addcartbutton").on("click", function () {
+                var id = $(this).data("id");
+                var qty = 1;
+                if (id) {
+                    $.ajax({
+                        cache: "false",
+                        type: "GET",
+                        url: "https://einsaf.com/add-to-cart/" + id + "/" + qty,
+                        dataType: "json",
+                        success: function (data) {
+                            if (data) {
+                                toastr.success('Success', 'Product add to cart successfully');
+                                return cart_count() + mobile_cart();
+                            }
+                        },
+                    });
+                }
+            });
+            $(".cart_store").on("click", function () {
+                var id = $(this).data("id");
+                var qty = $(this).parent().find("input").val();
+                if (id) {
+                    $.ajax({
+                        type: "GET",
+                        data: { id: id, qty: qty ? qty : 1 },
+                        url: "https://einsaf.com/cart/store",
+                        success: function (data) {
+                            if (data) {
+                                toastr.success('Success', 'Product add to cart succfully');
+                                return cart_count() + mobile_cart();
+                            }
+                        },
+                    });
+                }
+            });
+
+            $(".cart_remove").on("click", function () {
+                var id = $(this).data("id");
+                if (id) {
+                    $.ajax({
+                        type: "GET",
+                        data: { id: id },
+                        url: "https://einsaf.com/cart/remove",
+                        success: function (data) {
+                            if (data) {
+                                $(".cartlist").html(data);
+                                return cart_count() + mobile_cart() + cart_summary();
+                            }
+                        },
+                    });
+                }
+            });
+
+            $(".cart_increment").on("click", function () {
+                var id = $(this).data("id");
+                if (id) {
+                    $.ajax({
+                        type: "GET",
+                        data: { id: id },
+                        url: "https://einsaf.com/cart/increment",
+                        success: function (data) {
+                            if (data) {
+                                $(".cartlist").html(data);
+                                return cart_count() + mobile_cart();
+                            }
+                        },
+                    });
+                }
+            });
+
+            $(".cart_decrement").on("click", function () {
+                var id = $(this).data("id");
+                if (id) {
+                    $.ajax({
+                        type: "GET",
+                        data: { id: id },
+                        url: "https://einsaf.com/cart/decrement",
+                        success: function (data) {
+                            if (data) {
+                                $(".cartlist").html(data);
+                                return cart_count() + mobile_cart();
+                            }
+                        },
+                    });
+                }
+            });
+
+            function cart_count() {
+                $.ajax({
+                    type: "GET",
+                    url: "https://einsaf.com/cart/count",
+                    success: function (data) {
+                        if (data) {
+                            $("#cart-qty").html(data);
+                        } else {
+                            $("#cart-qty").empty();
+                        }
+                    },
+                });
+            }
+            function mobile_cart() {
+                $.ajax({
+                    type: "GET",
+                    url: "https://einsaf.com/mobilecart/count",
+                    success: function (data) {
+                        if (data) {
+                            $(".mobilecart-qty").html(data);
+                        } else {
+                            $(".mobilecart-qty").empty();
+                        }
+                    },
+                });
+            }
+            function cart_summary() {
+                $.ajax({
+                    type: "GET",
+                    url: "https://einsaf.com/shipping-charge",
+                    dataType: "html",
+                    success: function (response) {
+                        $(".cart-summary").html(response);
+                    },
+                });
+            }
+        </script>
+        <!-- cart js end -->
+        <script>
+            $(".search_click").on("keyup change", function () {
+                var keyword = $(".search_keyword").val();
+                $.ajax({
+                    type: "GET",
+                    data: { keyword: keyword },
+                    url: "https://einsaf.com/livesearch",
+                    success: function (products) {
+                        if (products) {
+                            $(".search_result").html(products);
+                        } else {
+                            $(".search_result").empty();
+                        }
+                    },
+                });
+            });
+            $(".msearch_click").on("keyup change", function () {
+                var keyword = $(".msearch_keyword").val();
+                $.ajax({
+                    type: "GET",
+                    data: { keyword: keyword },
+                    url: "https://einsaf.com/livesearch",
+                    success: function (products) {
+                        if (products) {
+                            $("#loading").hide();
+                            $(".search_result").html(products);
+                        } else {
+                            $(".search_result").empty();
+                        }
+                    },
+                });
+            });
+        </script>
+        <!-- search js start -->
+        <script></script>
+        <script></script>
+        <script>
+            $(".district").on("change", function () {
+                var id = $(this).val();
+                $.ajax({
+                    type: "GET",
+                    data: { id: id },
+                    url: "https://einsaf.com/districts",
+                    success: function (res) {
+                        if (res) {
+                            $(".area").empty();
+                            $(".area").append('<option value="">Select..</option>');
+                            $.each(res, function (key, value) {
+                                $(".area").append('<option value="' + key + '" >' + value + "</option>");
+                            });
+                        } else {
+                            $(".area").empty();
+                        }
+                    },
+                });
+            });
+        </script>
+        <script>
+            $(".toggle").on("click", function () {
+                $("#page-overlay").show();
+                $(".mobile-menu").addClass("active");
+            });
+
+            $("#page-overlay").on("click", function () {
+                $("#page-overlay").hide();
+                $(".mobile-menu").removeClass("active");
+                $(".feature-products").removeClass("active");
+            });
+
+            $(".mobile-menu-close").on("click", function () {
+                $("#page-overlay").hide();
+                $(".mobile-menu").removeClass("active");
+            });
+
+            $(".mobile-filter-toggle").on("click", function () {
+                $("#page-overlay").show();
+                $(".feature-products").addClass("active");
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".parent-category").each(function () {
+                    const menuCatToggle = $(this).find(".menu-category-toggle");
+                    const secondNav = $(this).find(".second-nav");
+
+                    menuCatToggle.on("click", function () {
+                        menuCatToggle.toggleClass("active");
+                        secondNav.slideToggle("fast");
+                        $(this).closest(".parent-category").toggleClass("active");
+                    });
+                });
+                $(".parent-subcategory").each(function () {
+                    const menuSubcatToggle = $(this).find(".menu-subcategory-toggle");
+                    const thirdNav = $(this).find(".third-nav");
+
+                    menuSubcatToggle.on("click", function () {
+                        menuSubcatToggle.toggleClass("active");
+                        thirdNav.slideToggle("fast");
+                        $(this).closest(".parent-subcategory").toggleClass("active");
+                    });
+                });
+            });
+        </script>
+
+        <script>
+            var menu = new MmenuLight(document.querySelector("#menu"), "all");
+
+            var navigator = menu.navigation({
+                selectedClass: "Selected",
+                slidingSubmenus: true,
+                // theme: 'dark',
+                title: "ক্যাটাগরি",
+            });
+
+            var drawer = menu.offcanvas({
+                // position: 'left'
+            });
+
+            //  Open the menu.
+            document.querySelector('a[href="#menu"]').addEventListener("click", (evnt) => {
+                evnt.preventDefault();
+                drawer.open();
+            });
+        </script>
+
+        <script>
+            // document.addEventListener("DOMContentLoaded", function () {
+            //     window.addEventListener("scroll", function () {
+            //         if (window.scrollY > 200) {
+            //             document.getElementById("navbar_top").classList.add("fixed-top");
+            //         } else {
+            //             document.getElementById("navbar_top").classList.remove("fixed-top");
+            //             document.body.style.paddingTop = "0";
+            //         }
+            //     });
+            // });
+            /*=== Main Menu Fixed === */
+            // document.addEventListener("DOMContentLoaded", function () {
+            //     window.addEventListener("scroll", function () {
+            //         if (window.scrollY > 0) {
+            //             document.getElementById("m_navbar_top").classList.add("fixed-top");
+            //             // add padding top to show content behind navbar
+            //             navbar_height = document.querySelector(".navbar").offsetHeight;
+            //             document.body.style.paddingTop = navbar_height + "px";
+            //         } else {
+            //             document.getElementById("m_navbar_top").classList.remove("fixed-top");
+            //             // remove padding top from body
+            //             document.body.style.paddingTop = "0";
+            //         }
+            //     });
+            // });
+            /*=== Main Menu Fixed === */
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $(".scrolltop:hidden").stop(true, true).fadeIn();
+                } else {
+                    $(".scrolltop").stop(true, true).fadeOut();
+                }
+            });
+            $(function () {
+                $(".scroll").click(function () {
+                    $("html,body").animate({ scrollTop: $(".gotop").offset().top }, "1000");
+                    return false;
+                });
+            });
+        </script>
+        <script>
+            $(".filter_btn").click(function(){
+               $(".filter_sidebar").addClass('active');
+               $("body").css("overflow-y", "hidden");
+            })
+            $(".filter_close").click(function(){
+               $(".filter_sidebar").removeClass('active');
+               $("body").css("overflow-y", "auto");
+            })
+        </script>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K29C9BKJ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+
+
+        <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '882050187180701');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=882050187180701&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

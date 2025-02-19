@@ -1,0 +1,277 @@
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Top Section */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-top .logo-section {
+    flex: 1;
+}
+
+.footer-top .logo-section img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-top .social-media,
+.footer-top .mobile-apps {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-top .social-icons img {
+    width: 30px;
+    margin: 5px;
+    height: auto;
+}
+
+.footer-top .mobile-apps img {
+    width: 120px;
+    margin: 5px;
+    height: auto;
+}
+
+/* Links Section */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-links .column {
+    width: 22%;
+}
+
+.footer-links h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-links a {
+    display: block;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+.payment-icons {
+    margin-top: 10px;
+}
+
+.payment-icons img {
+    width: 50px;
+    margin: 5px;
+    height: auto;
+}
+.w{
+    color: white;
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header-top {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    /* Subtle border */
+}
+
+.header-top .language-currency {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .language-currency a {
+    margin-right: 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+/* .header-top .auth-links {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+} */
+
+.auth-links a {
+    margin-left: 10px;
+    /* color: #777; */
+    color: blue;
+    text-decoration: none;
+    margin-inline-end: 10px;
+}
+
+/* Header Main */
+.header-main {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+    max-width: 80px;
+    /* Space between logo and search */
+}
+
+.search-bar {
+    flex: 1;
+    /* Takes up available space */
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    /* Input takes up most of search bar */
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #f0f0f0;
+    /* Light gray button */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.cart a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Header Bottom (Navigation) */
+.header-bottom {
+    background-color: #c03;
+    /* Red background */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+}
+
+nav li {
+    margin-right: 20px;
+    /* Space between nav items */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .category-menu {
+    background-color: #900;
+    /* Darker red for categories */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    /* Use flexbox for icon and text */
+    align-items: center;
+}
+
+nav .category-menu span {
+    margin-left: 5px;
+    /* Space between icon and text */
+}
+
+/* Example dropdown styles (you'll need to add interactivity) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.category-menu:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+/* .mycolor {
+    color:blue;
+} */
